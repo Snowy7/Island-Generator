@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1595089119855714133
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TerrainColor
+  m_Shader: {fileID: -6465566751694194690, guid: 98d9014bfd9656f449f677ee5b277839, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Grass:
+        m_Texture: {fileID: 2800000, guid: a446a128e352c924ca72c81e4e935e69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sand:
+        m_Texture: {fileID: 2800000, guid: aabfde86284805c408338014c5d80cf2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _ClifRock_Height: 19.57
+    - _ClifRock_Threshold: 5.6
+    - _GrandHeightBlendNoise: 0
+    - _GrandHeightBlendScale: 0
+    - _GrassHeightBlend: 0
+    - _Grass_Threshold: 0
+    - _Sand_Height: 2.95
+    - _Sand_Threshold: 0.92
+    m_Colors:
+    - _ClifRock: {r: 1, g: 1, b: 1, a: 1}
+    - _Grass: {r: 0.2910311, g: 0.5377358, b: 0.058339275, a: 0}
+    - _Sand: {r: 0.8867924, g: 0.8152775, b: 0.29699183, a: 0}
+  m_BuildTextureStacks: []
